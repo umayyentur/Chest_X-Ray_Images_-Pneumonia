@@ -37,6 +37,7 @@ To set up the project, follow these steps:
 
 1. **Clone the repository**:
    git clone https://github.com/umayyentur/Chest_X-Ray_Images_-Pneumonia.git
+   
    `cd pneumonia-detection`
 
 2. **Install the required dependencies:**   
@@ -44,7 +45,8 @@ To set up the project, follow these steps:
 
 
 3. **Download the dataset:**
-    The dataset used for training can be found here.[https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia]
+    The dataset used for training can be found [here](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
+    
     Place the dataset in the chest_xray directory 
 
 4. **Train the model:**
@@ -91,6 +93,7 @@ Open your web browser and navigate to `http://127.0.0.1:8000`
 **Dockerfile** 
 
 The Dockerfile included in the project sets up the environment and runs the Flask web application. Here is a brief overview of the Dockerfile:
+
 ```Dockerfile
 # Use an official Python runtime as a parent image
 FROM python:3.10-slim
