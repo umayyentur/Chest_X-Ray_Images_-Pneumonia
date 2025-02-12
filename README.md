@@ -33,7 +33,7 @@ To set up the project, follow these steps:
 
 
 3. **Download the dataset:**
-    The dataset used for training can be found here.[https://www.kaggle.com/datasets/paultimothymooney/]
+    The dataset used for training can be found here.[https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia]
     Place the dataset in the chest_xray directory 
 
 4. **Train the model:**
@@ -41,7 +41,7 @@ To set up the project, follow these steps:
     The trained model will be saved as pneumonia_model.pth.
 
 5. **Run the Flask web application:**
-    ```{p} python app.py```
+    ```python app.py```
     The web application will be available at http://127.0.0.1:8000.
 
 
@@ -75,12 +75,12 @@ docker build -t pneumonia-detection .
 
 docker run -p 8000:8000 pneumonia-detection
 Access the web application:
-Open your web browser and navigate to http://127.0.0.1:8000.
+Open your web browser and navigate to `http://127.0.0.1:8000`
 
 **Dockerfile** 
 
 The Dockerfile included in the project sets up the environment and runs the Flask web application. Here is a brief overview of the Dockerfile:
-
+```Dockerfile
 # Use an official Python runtime as a parent image
 FROM python:3.10-slim
 
@@ -98,8 +98,9 @@ EXPOSE 8000
 
 # Run app.py when the container launches
 CMD ["python", "app.py"]
+```
 
-
+```markdown
 ## File Structure
 
 pneumonia-detection/
@@ -114,3 +115,5 @@ pneumonia-detection/
 │   └── val/                    # Validation images
 └── templates/                  # Flask templates (if applicable)
     └── index.html              # HTML template for the web application
+
+```
