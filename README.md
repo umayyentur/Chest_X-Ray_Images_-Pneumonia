@@ -37,7 +37,7 @@ To set up the project, follow these steps:
 
 1. **Clone the repository**:
    git clone https://github.com/umayyentur/Chest_X-Ray_Images_-Pneumonia.git
-   cd pneumonia-detection
+   `cd pneumonia-detection`
 
 2. **Install the required dependencies:**   
     `pip install -r requirements.txt`
@@ -81,10 +81,10 @@ This project includes Docker support for easy deployment. Follow these steps to 
 
 **Build the Docker image:**
 
-docker build -t pneumonia-detection .
+`docker build -t pneumonia-detection .`
 **Run the Docker container:**
 
-docker run -p 8000:8000 pneumonia-detection
+`docker run -p 8000:8000 pneumonia-detection`
 Access the web application:
 Open your web browser and navigate to `http://127.0.0.1:8000`
 
