@@ -13,7 +13,18 @@ This project is designed to detect pneumonia from chest X-ray images using a dee
 
 ## Project Overview
 
-The goal of this project is to classify chest X-ray images into two categories: **Normal** and **Pneumonia**. The model is trained using the PyTorch framework and is based on the ResNet18 architecture. The project includes:
+The goal of this project is to classify chest X-ray images into two categories: **Normal** and **Pneumonia**. Below is a screenshot of the Flask web application in action:
+
+![Web Application Screenshot](images/web_app_screenshot.png)
+
+### Sample Input and Output
+
+Here are examples of the input (chest X-ray images) and the corresponding predictions:
+
+| **Normal X-Ray** | **Pneumonia X-Ray** |
+|------------------|---------------------|
+| ![Normal X-Ray](images/normal_xray.jpeg) | ![Pneumonia X-Ray](images/pneumonia_xray.jpeg) |
+
 
 - **Training Script**: A Jupyter Notebook (`chest.ipynb`) for training the model on a dataset of chest X-ray images.
 - **Prediction Handler**: A Python script (`handler.py`) for loading the trained model and making predictions on new images.
