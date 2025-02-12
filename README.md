@@ -29,7 +29,7 @@ To set up the project, follow these steps:
    cd pneumonia-detection
 
 2. **Install the required dependencies:**   
-    pip install -r requirements.txt
+    `pip install -r requirements.txt`
 
 
 3. **Download the dataset:**
@@ -38,7 +38,7 @@ To set up the project, follow these steps:
 
 4. **Train the model:**
     Open the Jupyter Notebook chest.ipynb and run the cells to train the model.
-    The trained model will be saved as pneumonia_model.pth.
+    The trained model will be saved as `pneumonia_model.pth.`
 
 5. **Run the Flask web application:**
     ```python app.py```
@@ -100,8 +100,8 @@ EXPOSE 8000
 CMD ["python", "app.py"]
 ```
 
-```markdown
 ## File Structure
+```markdown
 
 pneumonia-detection/
 ├── chest.ipynb                # Jupyter Notebook for training the model
@@ -115,5 +115,4 @@ pneumonia-detection/
 │   └── val/                    # Validation images
 └── templates/                  # Flask templates (if applicable)
     └── index.html              # HTML template for the web application
-
 ```
