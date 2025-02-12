@@ -25,7 +25,7 @@ The goal of this project is to classify chest X-ray images into two categories: 
 To set up the project, follow these steps:
 
 1. **Clone the repository**:
-   git clone https://github.com/yourusername/pneumonia-detection.git
+   git clone https://github.com/umayyentur/Chest_X-Ray_Images_-Pneumonia.git
    cd pneumonia-detection
 
 2. **Install the required dependencies:**   
@@ -42,7 +42,7 @@ To set up the project, follow these steps:
 
 5. **Run the Flask web application:**
     ```python app.py```
-    The web application will be available at http://127.0.0.1:8000.
+    The web application will be available at `http://127.0.0.1:8000`
 
 
 
